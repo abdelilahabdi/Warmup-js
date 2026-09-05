@@ -26,3 +26,11 @@ for (let i = 1 ; i <= 20 ; i++ ) {
   }
    
 }
+
+
+let i = 10 ;
+while (i >= 1){
+  process.stdout.write(i + " ");
+  i-- ;
+}
+console.log("decollage");
