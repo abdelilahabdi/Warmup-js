@@ -15,3 +15,14 @@ for (let i = 1 ; i <= 100 ; i++) {
 
 console.log(somme) ;
 
+
+
+
+for (let i = 1 ; i <= 20 ; i++ ) {
+  let nombre = i ;
+  if (nombre % 2 === 0){
+      //console.log(nombre);
+    process.stdout.write(nombre.toString() + " ");
+  }
+   
+}
