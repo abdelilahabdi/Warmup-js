@@ -7,4 +7,5 @@ console.log(courses);
 let position = courses.indexOf("lait") ;
 
  
-console.log(courses.splice(position));
+courses.splice(position , 1);
+console.log(courses);
