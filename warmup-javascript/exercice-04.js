@@ -22,5 +22,5 @@ console.log(courses);
 
 for (let i = 0 ; i < courses.length ; i++) {
   let num = courses[i];
-  console.log(i + 1  + "." + num) ;
+  console.log(i + 1  + ". " + num) ;
 }
