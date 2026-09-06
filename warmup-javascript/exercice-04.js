@@ -16,3 +16,11 @@ console.log(courses);
 
 
  console.log(courses.length) ;
+
+ 
+// const courses = ["pain" , "riz" , "cafe" , "sucre"] ;
+
+for (let i = 0 ; i < courses.length ; i++) {
+  let num = courses[i];
+  console.log(i + 1  + "." + num) ;
+}
